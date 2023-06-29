@@ -10,7 +10,7 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/logger"
 )
 
-//go:embed public
+//go:embed all:public
 var frontend embed.FS
 
 func main() {
